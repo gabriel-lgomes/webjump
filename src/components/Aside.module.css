@@ -1,0 +1,64 @@
+.aside {
+  background-color: #dbdbdb;
+  padding: 13px 17px;
+}
+
+.aside ul {
+  padding: 0;
+}
+
+.aside li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.aside li a {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.aside li a:hover {
+  color: var(--primary-color);
+}
+
+.aside li::before {
+  content: "•";
+  margin: 0 5px 0 0;
+  color: var(--text-color);
+}
+
+.asideProducts {
+  border: 1px solid #E2DEDC;
+  background:  white;
+}
+
+.asideProducts h3 {
+  color: #1E2B50;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.asideProducts li {
+  color: var(--text-color);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.asideProducts .listColors {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 5px;
+}
+
+.asideProducts .listColors .colors {
+  height: 24px;
+}
+
+.asideProducts .listColors .border {
+  border: 1px solid black;
+}
+
+.asideProducts .listColors .colors::before {
+  content: "";
+}

@@ -1,0 +1,42 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 40px;
+}
+
+.filter .select {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #808185;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.filter .select select {
+  width: 216px;
+  border: 1px solid #E2DEDC;
+  border-radius: 5px;
+  padding: 0 13px;
+}
+
+.filter .list {
+  display: flex;
+  gap: 12px;
+}
+
+.filter .list svg {
+  color: #00A8A9;
+  font-size: 25px;
+  transition: .5s;
+}
+
+.filter .list svg:hover {
+  color: var(--primary-color);
+  transition: .5s;
+}
+
+.filter .list .active svg {
+  color: var(--primary-color); 
+}

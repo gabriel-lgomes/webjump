@@ -1,0 +1,6 @@
+footer {
+  background: var(--primary-color);
+  padding: 6em 0;
+  max-width: 1024px;
+  margin: 1em auto;
+}

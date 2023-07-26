@@ -1,0 +1,32 @@
+/* Variáveis */
+:root {
+  --primary-color: #cc0c20;
+  --text-color: #717171;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+.app .container{
+  display: grid;
+  grid-template-columns: 261px 2fr;
+  gap: 1.5em; 
+  justify-content: center;
+  max-width: 1024px;
+  margin: 1em auto;
+}
